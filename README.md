@@ -2,52 +2,8 @@ Este conjunto de datos proporciona datos sintéticos pero realistas para analiza
 
 El conjunto de datos es ideal para practicar tareas de aprendizaje automático como la previsión de la demanda, la fijación dinámica de precios y la optimización del inventario. Permite a los científicos de datos explorar técnicas de previsión de series temporales, estudiar el impacto de factores externos como el clima y los días festivos en las ventas y crear modelos avanzados para optimizar el rendimiento de la cadena de suministro.
 
+-----------------------------------------------------------
 
-Sistema de Previsión de Demanda para Retail
-1. 🎯 Propuesta de Valor / Objetivo del Proyecto
-Desarrollar un modelo de Machine Learning para predecir con precisión la demanda diaria de productos en cada tienda.
-
-Impacto Principal:
-
-Optimizar el inventario: Reducir costos por exceso de stock.
-
-Maximizar las ventas: Evitar pérdidas por falta de producto (roturas de stock).
-
-Automatizar decisiones: Pasar de una gestión de inventario reactiva a una proactiva y basada en datos.
-
-2. 🗂️ Recursos Clave
-Dataset: retail_store_inventory.csv, conteniendo datos históricos de ventas, inventario, precios, promociones y factores externos desde 2022 hasta 2024.
-
-Stack Tecnológico:
-
-Lenguaje: Python
-
-Librerías Principales: Pandas (Manipulación), Scikit-learn (Preprocessing), XGBoost (Modelado), Matplotlib/Seaborn (Visualización).
-
-3. ⚙️ Actividades Clave / Metodología
-El proceso se estructuró como un problema de previsión de series temporales:
-
-Limpieza de Datos: Identificación y manejo de valores ausentes para asegurar la calidad del dataset.
-
-Ingeniería de Características (Feature Engineering):
-
-Extracción de Atributos de Fecha: Se descompuso la columna Date en mes, día_de_la_semana, semana_del_año para capturar estacionalidades.
-
-Creación de Lags y Medias Móviles: Se generaron características basadas en ventas pasadas (ej: ventas del día anterior, media de la última semana) para capturar tendencias y la dinámica temporal.
-
-Modelado y Entrenamiento:
-
-Modelo Utilizado: XGBoost, un algoritmo de Gradient Boosting potente y eficaz para datos tabulares.
-
-Validación Temporal: Se dividieron los datos de forma cronológica (entrenamiento con datos antiguos, prueba con los más recientes) para simular un escenario real de pronóstico.
-
-Evaluación del Modelo: Se midió el rendimiento utilizando métricas de regresión clave para cuantificar la precisión del pronóstico.
-
-¡Excelentes resultados! Un R² de 0.9935 es un número excepcionalmente bueno y demuestra que el modelo es muy preciso.
-
-Aquí tienes el Canvas de Proyecto actualizado con tus métricas. Está listo para que lo incluyas en tu portafolio.
-
-Project Canvas: Sistema de Previsión de Demanda para Retail
 1. 🎯 Propuesta de Valor / Objetivo del Proyecto
 Desarrollar un modelo de Machine Learning para predecir con precisión la demanda diaria de productos en cada tienda.
 
