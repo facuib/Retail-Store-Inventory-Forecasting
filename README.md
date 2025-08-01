@@ -1,0 +1,3 @@
+Este conjunto de datos proporciona datos sintéticos pero realistas para analizar y pronosticar la demanda de inventario en tiendas minoristas. Contiene más de 73 000 filas de datos diarios de múltiples tiendas y productos, incluyendo atributos como ventas, niveles de inventario, precios, clima, promociones y días festivos.
+
+El conjunto de datos es ideal para practicar tareas de aprendizaje automático como la previsión de la demanda, la fijación dinámica de precios y la optimización del inventario. Permite a los científicos de datos explorar técnicas de previsión de series temporales, estudiar el impacto de factores externos como el clima y los días festivos en las ventas y crear modelos avanzados para optimizar el rendimiento de la cadena de suministro.
